@@ -43,7 +43,7 @@ footer{
     margin: 10px;
     border: 1px solid #131385ba;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px grey;
+    box-shadow: 2px 2px 5px rgb(104, 103, 103);
 }
 
 .logo{
