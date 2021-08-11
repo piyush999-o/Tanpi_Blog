@@ -1,0 +1,139 @@
+@import url('http://fonts.cdnfonts.com/css/arch-rival');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* img {
+  width: 100vw;
+  height: 100vh;
+} */
+
+/* article{
+    filter: blur(100px);
+} */
+/* article{
+    filter: blur(100px);
+} */
+
+body{
+    background: url(../back/backgroun-img2.jpg);
+    background-size: contain;
+}
+
+.div-1{
+    position: absolute;
+    background-color: #FF9933;
+    height: 243px;
+    width: 100vw;
+    margin-left: 0px;
+    margin-top: 0px;
+    z-index: -1;
+}
+
+.div-2{
+    position: absolute;
+    background-color: #FFFFFF;
+    height: 243px;
+    width: 100vw;
+    margin-left: 0px;
+    margin-top: 243px;
+    z-index: -2;
+}
+
+.div-3{
+    position: absolute;
+    background-color: #138808;
+    height: 243px;
+    width: 100vw;
+    margin-left: 0px;
+    margin-top: 486px;
+    z-index: -3;
+}
+
+.div-4{
+    position: absolute;
+    background-color: #000080;
+    height: 243px;
+    width: 10vw;
+    margin-left: 40%;
+    margin-top: 243px;
+    z-index: 1;
+}
+
+.glass{
+    box-shadow: 5px 5px 20px rgba(0, 0, 255, 0.555);
+    background-color: #fcfcfcbb;
+    border: 2px solid rgba(102, 225, 247, 0.685);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+    z-index: 5;
+    height: 85vh;
+}
+
+audio {
+  width: 0;
+  height: 0;
+}
+
+.main{
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 26px;
+    text-shadow: 0 0 2px rgba(255, 251, 0, 0.699);
+}
+
+.main img{
+    height: 90px;
+}
+
+.main h1{
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0 0 5px rgb(253, 0, 0);
+}
+
+button{
+    margin-top: 50px;
+    padding: 10px 90px;
+    font-size: 26px;
+    font-family: fantasy;
+    border: 0.5px solid rgb(1, 1, 182);
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #FF9933;
+    letter-spacing: 3px;
+    transition: 2s;
+    animation: change 4s infinite;
+    text-shadow: 2px 2px 10px white;
+    box-shadow: 5px 5px 5px rgb(61, 61, 61);
+}
+
+button:hover{
+    box-shadow: 3px 3px 8px gray;
+}
+
+@keyframes change{
+    0%{
+        background-color: #FF9933;
+    }
+    33%{
+        background-color: white;
+    }
+    66%{
+        background-color: #138808;
+    }
+    100%{
+        background-color: #FF9933;
+    }
+}
