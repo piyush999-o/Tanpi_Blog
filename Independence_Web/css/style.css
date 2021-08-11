@@ -19,7 +19,7 @@
 
 body{
     background: url(../back/backgroun-img2.jpg);
-    background-size: contain;
+    background-size: cover;
 }
 
 .div-1{
